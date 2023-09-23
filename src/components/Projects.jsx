@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="align-center justify-center lg:mx-[190px]  gap-4 m-4">
     <div>
-    <h1 className="font-bold text-lg m-2">Projects</h1>
+    <h1 className="font-bold text-lg ml-9 flex items-center justify-center">Projects</h1>
     </div>
     <div  className="grid lg:grid-cols-3 align-center justify-center p-6  m-2  rounded-lg gap-5 mt-6 mx-4">
     <img src={arctic} alt="artic"  scale='70' className="mt-2 ml-2 h-[200px] w-[400px] hover:scale-110" />
