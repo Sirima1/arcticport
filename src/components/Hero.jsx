@@ -2,7 +2,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import  Image from "../../src/assets/sifa.jpeg";
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const Hero = ({id}) => {
   return (
     <div className="grid lg:grid-cols-2 gap-6 ">
       <motion.div 

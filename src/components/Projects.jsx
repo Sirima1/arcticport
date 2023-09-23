@@ -5,9 +5,9 @@ import  Sirima from "../../src/assets/arctic.jpg";
 
 
 
-const Projects = () => {
+const Projects = ({id}) => {
   return (
-    <div className="align-center justify-center lg:mx-[190px]  gap-4 m-4">
+    <div id={id} className="align-center justify-center lg:mx-[190px]  gap-4 m-4">
     <div>
     <h1 className="font-bold text-lg ml-9 flex items-center justify-center">Projects</h1>
     </div>

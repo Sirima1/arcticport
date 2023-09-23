@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 import image from '../../src/assets/a.jpg'
 import {   AiFillMessage,  AiOutlineCopyrightCircle, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai'
 
-const Footer = () => {
+const Footer = ({id}) => {
   return (
     <div>
-    <div className='mt-4 ml-9 mb-4 mx-9 gap-4 grid lg:grid-cols-2 xs:items-center xs:justify-center xs:block md:items-center md:justify-center md:mx-[90px] '>
+    <div id={id} className='mt-4 ml-9 mb-4 mx-9 gap-4 grid lg:grid-cols-2 xs:items-center xs:justify-center xs:block md:items-center md:justify-center md:mx-[90px] '>
     <div>
     <img src={image} alt="kameme" />
 
